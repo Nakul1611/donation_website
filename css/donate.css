@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(245, 237, 237)
+}
+
+.foot {
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.box {
+    /* border: 2px red solid; */
+    text-align: center;
+    padding: 120px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 505px;
+    margin: auto;
+    margin-top: 63px;
+    outline: none;
+    background-color: rgb(236, 207, 42);
+    animation: mymove 10s infinite ease-out;
+}
+
+@keyframes mymove {
+    0% {
+        background-color: rgb(228, 206, 83);
+    }
+
+    20% {
+        background-color: rgb(224, 146, 192);
+    }
+
+    40% {
+        background-color: rgb(197, 233, 129);
+    }
+
+    60% {
+        background-color: rgb(150, 238, 98);
+    }
+
+    80% {
+        background-color: rgb(206, 126, 226);
+    }
+
+    100% {
+        background-color: rgb(233, 212, 95);
+    }
+}
+
+.box h1 {
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    border-bottom: 2px rgb(22, 18, 18) solid;
+}
+
+.box h3 {
+    margin: 35px 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    /* border: 1px blueviolet solid ; */
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: gold;
+    box-shadow: 4px 4px 10px;
+
+}
+
+.btn:hover {
+    color: rgb(31, 143, 40);
+    position: relative;
+    top: 3px;
+}
